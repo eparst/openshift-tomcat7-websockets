@@ -14,7 +14,7 @@ function is_tomcat7_installed() {
 
 
 function create_server_xml_template() {
-   serverxml="$dldir/$tcdir/conf/server.xml"
+   serverxml="$dldir$tcdir/conf/server.xml"
    [ -f "${serverxml}.template" ]  ||  cp -p $serverxml ${serverxml}.template
 
 }  #  End of function  create_server_xml_template.
