@@ -4,6 +4,7 @@
 # $OPENSHIFT_INTERNAL_IP:8080
 
 # Source utility functions.
+source "$OPENSHIFT_REPO_DIR/.openshift/lib/utils"
 export JAVA_HOME=/etc/alternatives/java_sdk_1.8.0
 export PATH=$JAVA_HOME/bin:$PATH
 
